@@ -15,6 +15,8 @@
          JobTitle varchar(20)
  );
 
+commit;
+
 select *
 from SCRUMTEAM_ZALINA;
 

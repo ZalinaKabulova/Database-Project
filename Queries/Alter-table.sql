@@ -1,3 +1,4 @@
+
 select * from SCRUMTEAM_ZALINA;
 
 --adding new column
@@ -18,8 +19,9 @@ alter table SCRUMTEAM_ZALINA rename column salary to annual_salary;
 ALTER TABLE  SCRUMTEAM_ZALINA drop column annual_salary;
 
 --how to change table name?
-ALTER table SCRUMTEAM_ZALINA Rename to agileteam;
+ALTER table SCRUMTEAM_ZALINA RENAME to agileteam;
 
+commit ;
 select * from agileteam;
 
 commit ;
@@ -30,5 +32,7 @@ truncate table agileteam;
 
 --if we want to delete the table and data together
 DROP TABLE agileteam;
+
+commit;
 
 
